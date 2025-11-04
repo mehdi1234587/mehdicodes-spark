@@ -40,7 +40,7 @@ const AIChatWidget = () => {
 
     try {
       // Placeholder API call - will be replaced with actual backend
-      const response = await fetch("https://mehdi12345678.app.n8n.cloud/webhook-test/af283dce-d23e-45f8-810c-1afc52989508", {
+      const response = await fetch("https://mehdi12345678.app.n8n.cloud/webhook/af283dce-d23e-45f8-810c-1afc52989508", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
